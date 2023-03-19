@@ -1,0 +1,35 @@
+
+<body>
+<div class="modal shadow-lg" tabindex="-1" id="login-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="col">
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="email address">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="password">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <div class="logged-alert"></div>
+                <input class="btn btn-primary" type="submit" value="Login" id="login-button">
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="login.js"></script>
+</body>

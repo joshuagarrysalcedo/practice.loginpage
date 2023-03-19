@@ -1,0 +1,17 @@
+.custom-container{
+
+}
+
+.settings-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+
+}
+body{
+    /*background-image: url('/img/BgImage.jpg');*/
+    backdrop-filter: blur(5px);
+}
+
+

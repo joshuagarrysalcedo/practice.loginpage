@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $.get('Navigation.html', function (data){
+            $('#nav-placeholder').replaceWith(data);
+        });
+
+
+    </script>
+    <title>Title</title>
+</head>
+<body>
+<nav id="nav-placeholder"></nav>
+<div class="row vh-100 justify-content-center mt-1 shadow-lg">
+    <div class="col-sm-6 mb-3 mb-sm-0 login-section">
+        <div class="col-xs-6">
+            <div class="card">
+                <div class="card-header "><h1>Web Development Login Page Activity</h1></div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">Name</dt>
+                        <dd class="col-sm-9">Joshua V. Salcedo</dd>
+
+                        <dt class="col-sm-3">Section</dt>
+                        <dd class="col-sm-9">
+                            Section B
+                        </dd>
+
+                        <dt class="col-sm-3">Year</dt>
+                        <dd class="col-sm-9">3rd Year</dd>
+
+                        <dt class="col-sm-3 text-truncate">Activity details</dt>
+                        <dd class="col-sm-9">
+                            <p>I completed my activity using HTML, CSS, JavaScript, and Bootstrap.</p>
+                            <p>HTML was used for structuring and defining the content of the web page.</p>
+                            <p>CSS was used for styling and formatting the content, giving it a visually appealing look.</p>
+                            <p>JavaScript was used for adding interactive and dynamic functionality to the web page. </p>
+                            <p>Bootstrap was used as a front-end framework to create a responsive and mobile-friendly layout for the web page.</p>
+                            <p>The combination of these technologies allowed me to create a fully functional and aesthetically pleasing web page.</p>
+                        </dd>
+                        <dt class="col-sm-3">REMARKS</dt>
+                        <dd class="col-sm-9"><p class="p-3 mb-2 bg-warning text-dark">Click the Login button to proceed!</p></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
